@@ -15,18 +15,7 @@ Most of my work lives in private repositories, so here's what I'm actually build
 
 ## 🛠️ Stack
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET%2010-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Ubuntu%20Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+`C# / .NET 10` · `React 19` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Redis` · `Docker` · `Nginx` · `GitHub Actions` · `Python` · `Ubuntu Server`
 
 ## ⚙️ How I work
 
@@ -37,5 +26,4 @@ Most of my work lives in private repositories, so here's what I'm actually build
 
 ## 📫 Contact
 
-[![Mail](https://img.shields.io/badge/ccalperaslan@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ccalperaslan@gmail.com)
-[![Website](https://img.shields.io/badge/forsproject.com-546B41?style=for-the-badge&logo=googlechrome&logoColor=white)](https://forsproject.com)
+**Mail:** [ccalperaslan@gmail.com](mailto:ccalperaslan@gmail.com) · **Web:** [forsproject.com](https://forsproject.com)

@@ -1,6 +1,6 @@
 # Merhaba, I'm Alper 👋
 
-**Computer Engineer** — I design, build and ship production web platforms end-to-end: from database schema and clean-architecture APIs to responsive UIs, Dockerized deployments and self-hosted CI/CD on my own servers.
+**Full-Stack Developer** — I design, build and ship production web platforms end-to-end: from database schema and clean-architecture APIs to responsive UIs, Dockerized deployments and self-hosted CI/CD on my own servers.
 
 Most of my work lives in private repositories, so here's what I'm actually building 👇
 

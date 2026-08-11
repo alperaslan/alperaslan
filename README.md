@@ -1,29 +1,65 @@
-# Merhaba, I'm Alper 👋
+<p align="center">
+  <a href="https://github.com/alperaslan">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=1200&text=Full-Stack%20Developer%20-%20building%20production%20web%20platforms%20end-to-end%20with%20.NET%20%26%20React.%20Currently%3A%20forsproject.com%20%26%20beyzaistudio.com" alt="Full-Stack Developer - building production web platforms end-to-end with .NET &amp; React. Currently: forsproject.com &amp; beyzaistudio.com" />
+  </a>
+</p>
 
-**Full-Stack Developer** — I design, build and ship production web platforms end-to-end: from database schema and clean-architecture APIs to responsive UIs, Dockerized deployments and self-hosted CI/CD on my own servers.
+### 🚀 About Me
 
-Most of my work lives in private repositories, so here's what I'm actually building 👇
+🔭 &nbsp;I'm currently working on **Paxis for Paximum**  
+🌱 &nbsp;I'm currently learning **Next.js + Nest.js**  
+💬 &nbsp;Ask me about **PHP**
 
-## 🚀 What I'm building
+### 🛠️ Tech Stack
 
-| Project | What it is | Stack |
-|---------|-----------|-------|
-| **[forsproject.com](https://forsproject.com)** | Corporate platform with a full in-house CRM — pipeline, proposals, meetings, e-mail tracking, exports, PWA & push notifications | .NET 10 · React 19 · PostgreSQL · Redis · RabbitMQ · Docker |
-| **[beyzaistudio.com](https://beyzaistudio.com)** | AI content production studio — corporate site with a fully database-driven admin panel (every text, translation and brand asset is editable, zero hard-coded content) | .NET 10 · React 19 · Tailwind 4 + DaisyUI · PostgreSQL |
-| **Jarvis** | My personal AI assistant ecosystem — cross-device desktop shell (Tauri 2), Turkish voice layer (STT/LLM/TTS with sub-2s round-trip) and a synced skills/memory brain | Svelte · Tauri · Python · PowerShell |
-| **KO Manager** | Game server management & licensing platform with a web-based license backend | C# · .NET · React |
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+</p>
 
-## 🛠️ Stack
+### 🔗 Connect With Me
 
-`C# / .NET 10` · `React 19` · `TypeScript` · `Tailwind CSS` · `PostgreSQL` · `Redis` · `Docker` · `Nginx` · `GitHub Actions` · `Python` · `Ubuntu Server`
+<p align="left">
+  <a href="https://forsproject.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:ccalperaslan@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-## ⚙️ How I work
+### 📊 GitHub Stats
 
-- **Clean Architecture & performance-first** — CQRS, repository pattern, indexed-by-default migrations, p95 < 200ms API targets
-- **Everything dynamic** — content, translations (TR/EN) and brand assets live in the database, managed from admin panels; no hard-coded strings
-- **Own the whole pipeline** — VPS provisioning, Nginx reverse proxy, Let's Encrypt, Docker Compose, self-hosted GitHub Actions runners for push-to-deploy
-- **AI-assisted, engineer-driven** — I use AI agents heavily in my daily workflow and build my own tooling around them
+<p align="center">
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=alperaslan&show_icons=true&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=alperaslan&layout=compact&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+</p>
 
-## 📫 Contact
+### 📈 Contribution Graph
 
-**Mail:** [ccalperaslan@gmail.com](mailto:ccalperaslan@gmail.com) · **Web:** [forsproject.com](https://forsproject.com)
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=alperaslan&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+</p>
+
+### 💭 Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
+</p>
+
+---
+<p align="center"><i>⭐️ From <a href="https://github.com/alperaslan">alperaslan</a></i></p>

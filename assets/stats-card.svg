@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="165" viewBox="0 0 440 165" fill="none" role="img" aria-label="GitHub stats: Total Contributions (last year): 4,170, Monthly Average: 348, Best Month (Mar): 747, This Month (to date): 539">
+<style>.title{font:600 16px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}.sub{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.lbl{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#9198a1}.num{font:600 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#9198a1}.big{font:700 20px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}</style>
+<text x="25" y="31" class="title">Alper Aslan's GitHub Stats</text>
+<text x="25" y="46" class="sub">incl. private &amp; work commits &#183; updated 2026-08-12</text>
+<circle cx="30" cy="68" r="3" fill="#2ea043"/>
+<text x="42" y="72" class="lbl">Total Contributions (last year):</text>
+<text x="252" y="72" class="num">4,170</text>
+<circle cx="30" cy="92" r="3" fill="#2ea043"/>
+<text x="42" y="96" class="lbl">Monthly Average:</text>
+<text x="252" y="96" class="num">348</text>
+<circle cx="30" cy="116" r="3" fill="#2ea043"/>
+<text x="42" y="120" class="lbl">Best Month (Mar):</text>
+<text x="252" y="120" class="num">747</text>
+<circle cx="30" cy="140" r="3" fill="#2ea043"/>
+<text x="42" y="144" class="lbl">This Month (to date):</text>
+<text x="252" y="144" class="num">539</text>
+<circle cx="360" cy="96" r="42" stroke="#2ea043" stroke-opacity="0.15" stroke-width="7"/>
+<circle cx="360" cy="96" r="42" stroke="#2ea043" stroke-width="7" stroke-linecap="round" stroke-dasharray="190.4 263.9" transform="rotate(-90 360 96)"/>
+<text x="360" y="98" text-anchor="middle" class="big">4.2K</text>
+<text x="360" y="114" text-anchor="middle" class="sub">contributions</text>
+<text x="360" y="154" text-anchor="middle" class="sub">ring: this month vs best</text>
+</svg>

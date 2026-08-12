@@ -66,7 +66,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=alperaslan&show_icons=true&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&count_private=true" alt="GitHub stats" />
+  <img height="165" src="assets/stats-card.svg" alt="GitHub stats: total contributions last year, monthly average, best month, this month" />
   <img height="165" src="assets/top-langs.svg" alt="Most used languages: PHP 65.7%, TypeScript 17.5%, C# 8.5%, JavaScript 3.6%, Python 2.2%, HTML 1.1%" />
 </p>
 

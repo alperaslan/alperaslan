@@ -70,4 +70,37 @@ parts.push('</svg>')
 
 const { writeFileSync } = await import('node:fs')
 writeFileSync(OUT, parts.join('\n') + '\n')
-console.log(`OK: ${months.length} months, total ${cal.totalContributions}, yMax ${yMax}`)
+
+const STATS_OUT = new URL('../assets/stats-card.svg', import.meta.url)
+const avg = Math.round(shownTotal / months.length)
+const best = values[iMax], bestLabel = label(months[iMax]).replace(/ '/, " '")
+const current = values[values.length - 1]
+const compact = n => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, '') + 'K' : String(n)
+const rows = [
+  ['Total Contributions (last year):', fmt(shownTotal)],
+  ['Monthly Average:', fmt(avg)],
+  [`Best Month (${bestLabel}):`, fmt(best)],
+  ['This Month (to date):', fmt(current)],
+]
+const cw = 440, ch = 165, rcx = 360, rcy = 96, rr = 42
+const pct = Math.min(current / best, 1)
+const circ = 2 * Math.PI * rr
+const sp = []
+sp.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${cw}" height="${ch}" viewBox="0 0 ${cw} ${ch}" fill="none" role="img" aria-label="GitHub stats: ${rows.map(r => r.join(' ')).join(', ')}">`)
+sp.push(`<style>.title{font:600 16px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}.sub{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.lbl{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#9198a1}.num{font:600 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#9198a1}.big{font:700 20px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}</style>`)
+sp.push(`<text x="25" y="31" class="title">Alper Aslan's GitHub Stats</text>`)
+sp.push(`<text x="25" y="46" class="sub">incl. private &amp; work commits &#183; updated ${today}</text>`)
+rows.forEach((r, i) => {
+  const ry = 72 + i * 24
+  sp.push(`<circle cx="30" cy="${ry - 4}" r="3" fill="#2ea043"/>`)
+  sp.push(`<text x="42" y="${ry}" class="lbl">${r[0]}</text>`)
+  sp.push(`<text x="252" y="${ry}" class="num">${r[1]}</text>`)
+})
+sp.push(`<circle cx="${rcx}" cy="${rcy}" r="${rr}" stroke="#2ea043" stroke-opacity="0.15" stroke-width="7"/>`)
+sp.push(`<circle cx="${rcx}" cy="${rcy}" r="${rr}" stroke="#2ea043" stroke-width="7" stroke-linecap="round" stroke-dasharray="${(pct * circ).toFixed(1)} ${circ.toFixed(1)}" transform="rotate(-90 ${rcx} ${rcy})"/>`)
+sp.push(`<text x="${rcx}" y="${rcy + 2}" text-anchor="middle" class="big">${compact(shownTotal)}</text>`)
+sp.push(`<text x="${rcx}" y="${rcy + 18}" text-anchor="middle" class="sub">contributions</text>`)
+sp.push(`<text x="${rcx}" y="${rcy + rr + 16}" text-anchor="middle" class="sub">ring: this month vs best</text>`)
+sp.push('</svg>')
+writeFileSync(STATS_OUT, sp.join('\n') + '\n')
+console.log(`OK: ${months.length} months, total ${shownTotal}, yMax ${yMax}, stats card current/best ${current}/${best}`)

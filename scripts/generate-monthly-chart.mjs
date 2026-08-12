@@ -1,5 +1,5 @@
 const LOGIN = 'alperaslan'
-const OUT = new URL('../assets/monthly-contributions.svg', import.meta.url)
+const OUT = new URL('../assets/monthly-activity.svg', import.meta.url)
 
 const token = process.env.GITHUB_TOKEN
 if (!token) { console.error('GITHUB_TOKEN missing'); process.exit(1) }

@@ -73,7 +73,7 @@
 ### 📈 Monthly Contributions
 
 <p align="center">
-  <img width="100%" src="assets/monthly-contributions.svg" alt="Monthly contributions bar chart, last 12 months" />
+  <img width="100%" src="assets/monthly-activity.svg" alt="Monthly contributions bar chart, last 12 months" />
 </p>
 
 ### 💭 Dev Quote

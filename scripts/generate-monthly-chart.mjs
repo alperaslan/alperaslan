@@ -20,8 +20,13 @@ for (const w of cal.weeks) for (const d of w.contributionDays) {
   const m = d.date.slice(0, 7)
   byMonth.set(m, (byMonth.get(m) || 0) + d.contributionCount)
 }
+const FROZEN_UNLINKED_WORK_COMMITS = {
+  '2026-03': 615, '2026-04': 545, '2026-05': 390,
+  '2026-06': 313, '2026-07': 624, '2026-08': 118,
+}
 const months = [...byMonth.keys()].sort().slice(-12)
-const values = months.map(m => byMonth.get(m))
+const values = months.map(m => byMonth.get(m) + (FROZEN_UNLINKED_WORK_COMMITS[m] || 0))
+const shownTotal = values.reduce((a, b) => a + b, 0)
 const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 const label = m => MONTH_NAMES[Number(m.slice(5)) - 1] + (m.slice(5) === '01' || m === months[0] ? ` '${m.slice(2, 4)}` : '')
 
@@ -46,10 +51,10 @@ const areaPath = `${linePath} L${px(values.length - 1).toFixed(1)},${baseY} L${p
 const fmt = n => n.toLocaleString('en-US')
 const today = new Date().toISOString().slice(0, 10)
 const parts = []
-parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="Monthly contributions, last 12 months, total ${fmt(cal.totalContributions)}">`)
+parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="Monthly contributions, last 12 months, total ${fmt(shownTotal)}">`)
 parts.push(`<style>.title{font:600 16px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}.sub{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.tick{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.val{font:600 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}</style>`)
 parts.push(`<text x="${L}" y="26" class="title">Monthly Contributions</text>`)
-parts.push(`<text x="${L}" y="44" class="sub">last 12 months &#183; total ${fmt(cal.totalContributions)} &#183; private included &#183; current month is month-to-date &#183; updated ${today}</text>`)
+parts.push(`<text x="${L}" y="44" class="sub">last 12 months &#183; total ${fmt(shownTotal)} &#183; private &amp; work commits included &#183; current month is month-to-date &#183; updated ${today}</text>`)
 for (const t of ticks) {
   parts.push(`<line x1="${L}" y1="${y(t).toFixed(1)}" x2="${W - R}" y2="${y(t).toFixed(1)}" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>`)
   parts.push(`<text x="${L - 8}" y="${(y(t) + 3.5).toFixed(1)}" text-anchor="end" class="tick">${fmt(t)}</text>`)

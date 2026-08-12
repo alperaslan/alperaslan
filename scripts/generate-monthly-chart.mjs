@@ -32,18 +32,16 @@ const pow = Math.pow(10, Math.floor(Math.log10(maxV)))
 const yMax = [1, 2, 2.5, 5, 10].map(k => k * pow).find(v => v >= maxV)
 const ticks = [0, yMax / 2, yMax]
 const slotW = plotW / months.length
-const barW = 24
 const y = v => baseY - (v / yMax) * plotH
+const px = i => L + i * slotW + slotW / 2
 
 const iMax = values.indexOf(Math.max(...values))
 const iMin = values.indexOf(Math.min(...values))
 const labeled = new Set([iMax, iMin, values.length - 1])
 
-const bar = (x, v) => {
-  if (v === 0) return ''
-  const h = Math.max(baseY - y(v), 3), top = baseY - h, r = Math.min(4, h)
-  return `<path d="M${x.toFixed(1)},${baseY} V${(top + r).toFixed(1)} Q${x.toFixed(1)},${top.toFixed(1)} ${(x + r).toFixed(1)},${top.toFixed(1)} H${(x + barW - r).toFixed(1)} Q${(x + barW).toFixed(1)},${top.toFixed(1)} ${(x + barW).toFixed(1)},${(top + r).toFixed(1)} V${baseY} Z" fill="#2ea043"/>`
-}
+const pts = values.map((v, i) => `${px(i).toFixed(1)},${y(v).toFixed(1)}`)
+const linePath = `M${pts.join(' L')}`
+const areaPath = `${linePath} L${px(values.length - 1).toFixed(1)},${baseY} L${px(0).toFixed(1)},${baseY} Z`
 
 const fmt = n => n.toLocaleString('en-US')
 const today = new Date().toISOString().slice(0, 10)
@@ -56,11 +54,12 @@ for (const t of ticks) {
   parts.push(`<line x1="${L}" y1="${y(t).toFixed(1)}" x2="${W - R}" y2="${y(t).toFixed(1)}" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>`)
   parts.push(`<text x="${L - 8}" y="${(y(t) + 3.5).toFixed(1)}" text-anchor="end" class="tick">${fmt(t)}</text>`)
 }
+parts.push(`<path d="${areaPath}" fill="#2ea043" fill-opacity="0.1"/>`)
+parts.push(`<path d="${linePath}" stroke="#2ea043" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none"/>`)
 months.forEach((m, i) => {
-  const x = L + i * slotW + (slotW - barW) / 2
-  parts.push(bar(x, values[i]))
-  parts.push(`<text x="${(x + barW / 2).toFixed(1)}" y="${baseY + 18}" text-anchor="middle" class="tick">${label(m)}</text>`)
-  if (labeled.has(i)) parts.push(`<text x="${(x + barW / 2).toFixed(1)}" y="${(y(values[i]) - 6).toFixed(1)}" text-anchor="middle" class="val">${fmt(values[i])}</text>`)
+  parts.push(`<circle cx="${px(i).toFixed(1)}" cy="${y(values[i]).toFixed(1)}" r="4" fill="#2ea043"/>`)
+  parts.push(`<text x="${px(i).toFixed(1)}" y="${baseY + 18}" text-anchor="middle" class="tick">${label(m)}</text>`)
+  if (labeled.has(i)) parts.push(`<text x="${px(i).toFixed(1)}" y="${(y(values[i]) - 10).toFixed(1)}" text-anchor="middle" class="val">${fmt(values[i])}</text>`)
 })
 parts.push('</svg>')
 

@@ -1,37 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" fill="none" role="img" aria-label="Monthly contributions, last 12 months, total 2,507">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" fill="none" role="img" aria-label="Monthly contributions, last 12 months, total 2,508">
 <style>.title{font:600 16px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}.sub{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.tick{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.val{font:600 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}</style>
 <text x="52" y="26" class="title">Monthly Contributions</text>
-<text x="52" y="44" class="sub">last 12 months &#183; total 2,507 &#183; private included &#183; current month is month-to-date &#183; updated 2026-08-12</text>
+<text x="52" y="44" class="sub">last 12 months &#183; total 2,508 &#183; private included &#183; current month is month-to-date &#183; updated 2026-08-12</text>
 <line x1="52" y1="226.0" x2="880" y2="226.0" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>
 <text x="44" y="229.5" text-anchor="end" class="tick">0</text>
 <line x1="52" y1="142.0" x2="880" y2="142.0" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>
 <text x="44" y="145.5" text-anchor="end" class="tick">250</text>
 <line x1="52" y1="58.0" x2="880" y2="58.0" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>
 <text x="44" y="61.5" text-anchor="end" class="tick">500</text>
-<path d="M74.5,226 V103.3 Q74.5,99.3 78.5,99.3 H94.5 Q98.5,99.3 98.5,103.3 V226 Z" fill="#2ea043"/>
+<path d="M86.5,99.3 L155.5,211.9 L224.5,184.0 L293.5,221.6 L362.5,185.0 L431.5,210.9 L500.5,181.6 L569.5,174.6 L638.5,209.2 L707.5,209.5 L776.5,213.9 L845.5,84.2 L845.5,226 L86.5,226 Z" fill="#2ea043" fill-opacity="0.1"/>
+<path d="M86.5,99.3 L155.5,211.9 L224.5,184.0 L293.5,221.6 L362.5,185.0 L431.5,210.9 L500.5,181.6 L569.5,174.6 L638.5,209.2 L707.5,209.5 L776.5,213.9 L845.5,84.2" stroke="#2ea043" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<circle cx="86.5" cy="99.3" r="4" fill="#2ea043"/>
 <text x="86.5" y="244" text-anchor="middle" class="tick">Sep '25</text>
-<path d="M143.5,226 V215.9 Q143.5,211.9 147.5,211.9 H163.5 Q167.5,211.9 167.5,215.9 V226 Z" fill="#2ea043"/>
+<circle cx="155.5" cy="211.9" r="4" fill="#2ea043"/>
 <text x="155.5" y="244" text-anchor="middle" class="tick">Oct</text>
-<path d="M212.5,226 V188.0 Q212.5,184.0 216.5,184.0 H232.5 Q236.5,184.0 236.5,188.0 V226 Z" fill="#2ea043"/>
+<circle cx="224.5" cy="184.0" r="4" fill="#2ea043"/>
 <text x="224.5" y="244" text-anchor="middle" class="tick">Nov</text>
-<path d="M281.5,226 V225.6 Q281.5,221.6 285.5,221.6 H301.5 Q305.5,221.6 305.5,225.6 V226 Z" fill="#2ea043"/>
+<circle cx="293.5" cy="221.6" r="4" fill="#2ea043"/>
 <text x="293.5" y="244" text-anchor="middle" class="tick">Dec</text>
-<text x="293.5" y="215.6" text-anchor="middle" class="val">13</text>
-<path d="M350.5,226 V189.0 Q350.5,185.0 354.5,185.0 H370.5 Q374.5,185.0 374.5,189.0 V226 Z" fill="#2ea043"/>
+<text x="293.5" y="211.6" text-anchor="middle" class="val">13</text>
+<circle cx="362.5" cy="185.0" r="4" fill="#2ea043"/>
 <text x="362.5" y="244" text-anchor="middle" class="tick">Jan '26</text>
-<path d="M419.5,226 V214.9 Q419.5,210.9 423.5,210.9 H439.5 Q443.5,210.9 443.5,214.9 V226 Z" fill="#2ea043"/>
+<circle cx="431.5" cy="210.9" r="4" fill="#2ea043"/>
 <text x="431.5" y="244" text-anchor="middle" class="tick">Feb</text>
-<path d="M488.5,226 V185.6 Q488.5,181.6 492.5,181.6 H508.5 Q512.5,181.6 512.5,185.6 V226 Z" fill="#2ea043"/>
+<circle cx="500.5" cy="181.6" r="4" fill="#2ea043"/>
 <text x="500.5" y="244" text-anchor="middle" class="tick">Mar</text>
-<path d="M557.5,226 V178.6 Q557.5,174.6 561.5,174.6 H577.5 Q581.5,174.6 581.5,178.6 V226 Z" fill="#2ea043"/>
+<circle cx="569.5" cy="174.6" r="4" fill="#2ea043"/>
 <text x="569.5" y="244" text-anchor="middle" class="tick">Apr</text>
-<path d="M626.5,226 V213.2 Q626.5,209.2 630.5,209.2 H646.5 Q650.5,209.2 650.5,213.2 V226 Z" fill="#2ea043"/>
+<circle cx="638.5" cy="209.2" r="4" fill="#2ea043"/>
 <text x="638.5" y="244" text-anchor="middle" class="tick">May</text>
-<path d="M695.5,226 V213.5 Q695.5,209.5 699.5,209.5 H715.5 Q719.5,209.5 719.5,213.5 V226 Z" fill="#2ea043"/>
+<circle cx="707.5" cy="209.5" r="4" fill="#2ea043"/>
 <text x="707.5" y="244" text-anchor="middle" class="tick">Jun</text>
-<path d="M764.5,226 V217.9 Q764.5,213.9 768.5,213.9 H784.5 Q788.5,213.9 788.5,217.9 V226 Z" fill="#2ea043"/>
+<circle cx="776.5" cy="213.9" r="4" fill="#2ea043"/>
 <text x="776.5" y="244" text-anchor="middle" class="tick">Jul</text>
-<path d="M833.5,226 V88.5 Q833.5,84.5 837.5,84.5 H853.5 Q857.5,84.5 857.5,88.5 V226 Z" fill="#2ea043"/>
+<circle cx="845.5" cy="84.2" r="4" fill="#2ea043"/>
 <text x="845.5" y="244" text-anchor="middle" class="tick">Aug</text>
-<text x="845.5" y="78.5" text-anchor="middle" class="val">421</text>
+<text x="845.5" y="74.2" text-anchor="middle" class="val">422</text>
 </svg>

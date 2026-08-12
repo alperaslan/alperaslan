@@ -70,10 +70,10 @@
   <img height="165" src="assets/top-langs.svg" alt="Most used languages: PHP 65.7%, TypeScript 17.5%, C# 8.5%, JavaScript 3.6%, Python 2.2%, HTML 1.1%" />
 </p>
 
-### 📈 Contribution Graph
+### 📈 Monthly Contributions
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=alperaslan&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="Contribution activity graph" />
+  <img width="100%" src="assets/monthly-contributions.svg" alt="Monthly contributions bar chart, last 12 months" />
 </p>
 
 ### 💭 Dev Quote

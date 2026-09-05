@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" fill="none" role="img" aria-label="Monthly contributions, last 12 months, total 4,269">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" fill="none" role="img" aria-label="Monthly contributions, last 12 months, total 4,270">
 <style>.title{font:600 16px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}.sub{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.tick{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.val{font:600 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}</style>
 <text x="52" y="26" class="title">Monthly Contributions</text>
-<text x="52" y="44" class="sub">last 12 months &#183; total 4,269 &#183; private &amp; work commits included &#183; current month is month-to-date &#183; updated 2026-09-04</text>
+<text x="52" y="44" class="sub">last 12 months &#183; total 4,270 &#183; private &amp; work commits included &#183; current month is month-to-date &#183; updated 2026-09-05</text>
 <line x1="52" y1="226.0" x2="880" y2="226.0" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>
 <text x="44" y="229.5" text-anchor="end" class="tick">0</text>
 <line x1="52" y1="142.0" x2="880" y2="142.0" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>
 <text x="44" y="145.5" text-anchor="end" class="tick">500</text>
 <line x1="52" y1="58.0" x2="880" y2="58.0" stroke="#8b949e" stroke-opacity="0.18" stroke-width="1"/>
 <text x="44" y="61.5" text-anchor="end" class="tick">1,000</text>
-<path d="M86.5,218.9 L155.5,205.0 L224.5,223.8 L293.5,205.5 L362.5,218.4 L431.5,100.5 L500.5,108.7 L569.5,152.1 L638.5,165.2 L707.5,115.1 L776.5,64.2 L845.5,217.3 L845.5,226 L86.5,226 Z" fill="#2ea043" fill-opacity="0.1"/>
-<path d="M86.5,218.9 L155.5,205.0 L224.5,223.8 L293.5,205.5 L362.5,218.4 L431.5,100.5 L500.5,108.7 L569.5,152.1 L638.5,165.2 L707.5,115.1 L776.5,64.2 L845.5,217.3" stroke="#2ea043" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path d="M86.5,218.9 L155.5,205.0 L224.5,223.8 L293.5,205.5 L362.5,218.4 L431.5,100.5 L500.5,108.7 L569.5,152.1 L638.5,165.2 L707.5,115.1 L776.5,64.2 L845.5,217.1 L845.5,226 L86.5,226 Z" fill="#2ea043" fill-opacity="0.1"/>
+<path d="M86.5,218.9 L155.5,205.0 L224.5,223.8 L293.5,205.5 L362.5,218.4 L431.5,100.5 L500.5,108.7 L569.5,152.1 L638.5,165.2 L707.5,115.1 L776.5,64.2 L845.5,217.1" stroke="#2ea043" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
 <circle cx="86.5" cy="218.9" r="4" fill="#2ea043"/>
 <text x="86.5" y="244" text-anchor="middle" class="tick">Oct '25</text>
 <circle cx="155.5" cy="205.0" r="4" fill="#2ea043"/>
@@ -34,7 +34,7 @@
 <circle cx="776.5" cy="64.2" r="4" fill="#2ea043"/>
 <text x="776.5" y="244" text-anchor="middle" class="tick">Aug</text>
 <text x="776.5" y="54.2" text-anchor="middle" class="val">963</text>
-<circle cx="845.5" cy="217.3" r="4" fill="#2ea043"/>
+<circle cx="845.5" cy="217.1" r="4" fill="#2ea043"/>
 <text x="845.5" y="244" text-anchor="middle" class="tick">Sep</text>
-<text x="845.5" y="207.3" text-anchor="middle" class="val">52</text>
+<text x="845.5" y="207.1" text-anchor="middle" class="val">53</text>
 </svg>

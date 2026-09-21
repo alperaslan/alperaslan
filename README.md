@@ -6,14 +6,14 @@
 
 <p align="center">
   <a href="https://github.com/alperaslan">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=2EA043&center=true&vCenter=true&width=700&lines=PHP+%E2%80%A2+TypeScript+%E2%80%A2+C%23+%2F+.NET+%E2%80%A2+Python;Currently%3A+Paxis+%40+Paximum+%E2%80%A2+forsproject.com+%E2%80%A2+beyzaistudio.com" alt="PHP • TypeScript • C# / .NET • Python — Currently: Paxis @ Paximum • forsproject.com • beyzaistudio.com" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1500&color=2EA043&center=true&vCenter=true&width=780&lines=PHP+%E2%80%A2+TypeScript+%E2%80%A2+C%23+%2F+.NET+%E2%80%A2+Python;Currently%3A+Paxis+%40+Paximum+%E2%80%A2+forsproject.com+%E2%80%A2+beyzaistudio.com+%E2%80%A2+tr-impex.com" alt="PHP • TypeScript • C# / .NET • Python — Currently: Paxis @ Paximum • forsproject.com • beyzaistudio.com • tr-impex.com" />
   </a>
 </p>
 
 ### 🚀 About Me
 
 🔭 &nbsp;I'm currently working on **Paxis for Paximum** — a B2B travel operations platform  
-🌱 &nbsp;I'm currently learning **Next.js + NestJS**  
+🌱 &nbsp;Recently shipped **[tr-impex.com](https://tr-impex.com)** — a trilingual corporate site + admin panel on **Next.js 16 + NestJS 12**  
 ⚡ &nbsp;Side project: **Jarvis** — a personal voice assistant (Python, Svelte, Tauri)  
 💬 &nbsp;Ask me about **PHP**  
 📫 &nbsp;Reach me at **ccalperaslan@gmail.com**
@@ -24,6 +24,7 @@
 |---|---|---|
 | **Paxis** @ Paximum | B2B travel operations & analytics platform | PHP 8, MariaDB, Tailwind, Alpine.js |
 | **paxis-next** | Full TypeScript rewrite of Paxis | NestJS, Next.js, PostgreSQL |
+| **[tr-impex.com](https://tr-impex.com)** | Corporate site + 3-role admin panel, EN/TR/RU, fully DB-driven | Next.js 16, NestJS 12, Prisma 7, PostgreSQL 18 |
 | **[forsproject.com](https://forsproject.com)** | Production web platform, end-to-end | .NET (C#), React |
 | **[beyzaistudio.com](https://beyzaistudio.com)** | Studio platform, end-to-end | .NET (C#), React |
 | **Jarvis** | Personal voice assistant (Turkish STT/LLM/TTS) | Python, Svelte, Tauri 2 |

@@ -23,7 +23,7 @@ for (const w of cal.weeks) for (const d of w.contributionDays) {
 const FROZEN_UNLINKED_WORK_COMMITS = {
   '2026-03': 615, '2026-04': 545, '2026-05': 390,
   '2026-06': 313, '2026-07': 624, '2026-08': 533,
-  '2026-09': 52,
+  '2026-09': 179,
 }
 const months = [...byMonth.keys()].sort().slice(-12)
 const values = months.map(m => byMonth.get(m) + (FROZEN_UNLINKED_WORK_COMMITS[m] || 0))

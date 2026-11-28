@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="165" viewBox="0 0 440 165" fill="none" role="img" aria-label="GitHub stats: Total Contributions (last year): 4,964, Monthly Average: 414, Best Month (Aug): 963, This Month (to date): 456">
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="165" viewBox="0 0 440 165" fill="none" role="img" aria-label="GitHub stats: Total Contributions (last year): 5,712, Monthly Average: 476, Best Month (Nov): 1,204, This Month (to date): 1,204">
 <style>.title{font:600 16px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}.sub{font:400 10px 'Segoe UI',Ubuntu,Sans-Serif;fill:#8b949e}.lbl{font:400 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#9198a1}.num{font:600 12px 'Segoe UI',Ubuntu,Sans-Serif;fill:#9198a1}.big{font:700 20px 'Segoe UI',Ubuntu,Sans-Serif;fill:#2ea043}</style>
 <text x="25" y="31" class="title">Alper Aslan's GitHub Stats</text>
-<text x="25" y="46" class="sub">incl. private &amp; work commits &#183; updated 2026-11-27</text>
+<text x="25" y="46" class="sub">incl. private &amp; work commits &#183; updated 2026-11-28</text>
 <circle cx="30" cy="68" r="3" fill="#2ea043"/>
 <text x="42" y="72" class="lbl">Total Contributions (last year):</text>
-<text x="252" y="72" class="num">4,964</text>
+<text x="252" y="72" class="num">5,712</text>
 <circle cx="30" cy="92" r="3" fill="#2ea043"/>
 <text x="42" y="96" class="lbl">Monthly Average:</text>
-<text x="252" y="96" class="num">414</text>
+<text x="252" y="96" class="num">476</text>
 <circle cx="30" cy="116" r="3" fill="#2ea043"/>
-<text x="42" y="120" class="lbl">Best Month (Aug):</text>
-<text x="252" y="120" class="num">963</text>
+<text x="42" y="120" class="lbl">Best Month (Nov):</text>
+<text x="252" y="120" class="num">1,204</text>
 <circle cx="30" cy="140" r="3" fill="#2ea043"/>
 <text x="42" y="144" class="lbl">This Month (to date):</text>
-<text x="252" y="144" class="num">456</text>
+<text x="252" y="144" class="num">1,204</text>
 <circle cx="360" cy="96" r="42" stroke="#2ea043" stroke-opacity="0.15" stroke-width="7"/>
-<circle cx="360" cy="96" r="42" stroke="#2ea043" stroke-width="7" stroke-linecap="round" stroke-dasharray="125.0 263.9" transform="rotate(-90 360 96)"/>
-<text x="360" y="98" text-anchor="middle" class="big">5K</text>
+<circle cx="360" cy="96" r="42" stroke="#2ea043" stroke-width="7" stroke-linecap="round" stroke-dasharray="263.9 263.9" transform="rotate(-90 360 96)"/>
+<text x="360" y="98" text-anchor="middle" class="big">5.7K</text>
 <text x="360" y="114" text-anchor="middle" class="sub">contributions</text>
 <text x="360" y="154" text-anchor="middle" class="sub">ring: this month vs best</text>
 </svg>
